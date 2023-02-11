@@ -4,6 +4,8 @@
 # 정확성 테스트 14개 중 0개 통과
 # 효율성 테스트 5개 중 0개 통과
 
+# ㅋㅋ 먼소린지 하나도 모르겟음
+
 def solution(cost, order):
     elect = []
     money = []
