@@ -1,17 +1,8 @@
-'''
-def solution(participant, completion):
-    d = {}
+# 완주하지 못한 선수
 
-    for x in participant:
-        d[x] = d.get(x, 0) + 1
-
-    for x in completion:
-        d[x] -= 1
-
-    dnf = [k for k, v in d.items() if v != 0]
-    answer = dnf[0]
-    return answer
-'''
+# 100.0/100.0
+# 정확성 테스트 7개 중 7개 통과 58.3
+# 효율성 테스트 5개 중 5개 통과 41.7
 
 def solution(participant, completion):
     # 딕셔너리 생성
